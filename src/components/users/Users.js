@@ -27,7 +27,7 @@ export class Users extends Component {
       }
 
       searchUsersFromGit =(data) =>{
-            if(data != '') {
+            if(data !== '') {
                   axios.get(`https://api.github.com/search/users?q=${data}`)
                        .then(respense => {     //retour d'axios c'est un promise qu'on va consommer via then and catch
                          this.setState({    //setState :methode pour modifier state
