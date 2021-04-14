@@ -1,0 +1,24 @@
+Application ReactJs with Git API:
+Environement : 
+*boostswatch: couche superieur de bootstrap
+*Nose js pour executer ReactJs
+-----commande pour intaller projet react--
+npx create-reat-app nom_de_projet
+
+dans les le dossier de projet existe node_modules:module des frameworks javascript ou il existe tt les dependances  et les independance de dev(dev dependcies)
+cad tt les packages necessaire pour tourner l'application 
+
+
+La difference entre fonction et class
+
+
+on utilise class lorsque on va generer des states dans la component
+si nn on utilise la faonction (on utilise Hooks)
+
+
+
+CYCLE DE VIE D4UN COMPONENT/
+1ER METHODE: execution de constructor de component de class
+2eme METHODE: componentWillMount
+3eme:render
+4eme:componentDidMount //equivalant à documentReady(jqery) ngOnUnit(angular)Mounted(vue js)
